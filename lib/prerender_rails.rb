@@ -13,7 +13,8 @@ module Rack
         'baiduspider',
         'facebookexternalhit',
         'twitterbot',
-        'LinkedInBot'
+        'LinkedInBot', # LinkedIn User-Agent
+        'rogerbot' # SEO MOZ User-Agent
       ]
 
       @extensions_to_ignore = [
