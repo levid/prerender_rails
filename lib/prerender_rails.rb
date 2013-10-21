@@ -11,9 +11,9 @@ module Rack
         'yahoo',
         'bingbot',
         'baiduspider',
-        # 'facebookexternalhit',
-        # 'twitterbot',
-        # 'LinkedInBot', # LinkedIn User-Agent
+        'facebookexternalhit',
+        'twitterbot',
+        'LinkedInBot', # LinkedIn User-Agent
         'rogerbot' # SEO MOZ User-Agent
       ]
 
