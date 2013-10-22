@@ -9,8 +9,8 @@ module Rack
       @crawler_user_agents = [
         'googlebot',
         'yahoo',
-        'bingbot',
-        'baiduspider',
+        # 'bingbot',
+        # 'baiduspider',
         # 'facebookexternalhit',
         # 'twitterbot',
         # 'LinkedInBot', # LinkedIn User-Agent
