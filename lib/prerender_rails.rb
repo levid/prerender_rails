@@ -125,7 +125,7 @@ module Rack
     end
 
     def get_prerender_service_url
-      @options[:prerender_service_url] || 'http://localhost:5000'
+      @options[:prerender_service_url] || ENV['PRERENDER_SERVICE_URL'] || 'http://prerender.herokuapp.com/'
     end
   end
 end
