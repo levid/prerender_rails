@@ -11,9 +11,9 @@ module Rack
         'yahoo',
         'bingbot',
         # 'baiduspider',
-        # 'facebookexternalhit',
-        # 'twitterbot',
-        # 'LinkedInBot', # LinkedIn User-Agent
+        'facebookexternalhit',
+        'twitterbot',
+        'LinkedInBot', # LinkedIn User-Agent
         'rogerbot' # SEO MOZ User-Agent
       ]
 
@@ -125,7 +125,7 @@ module Rack
     end
 
     def get_prerender_service_url
-      @options[:prerender_service_url] || ENV['PRERENDER_SERVICE_URL'] || 'http://prerender.herokuapp.com/'
+      @options[:prerender_service_url] || 'http://localhost:5000'
     end
   end
 end
